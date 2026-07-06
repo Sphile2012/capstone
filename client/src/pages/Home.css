@@ -1,0 +1,23 @@
+.home-page {
+  min-height: 100vh;
+}
+
+.listings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 40px 24px;
+  padding: 40px 0;
+}
+
+@media (max-width: 768px) {
+  .listings-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 32px 16px;
+  }
+}
+
+@media (max-width: 550px) {
+  .listings-grid {
+    grid-template-columns: 1fr;
+  }
+}

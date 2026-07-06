@@ -1,0 +1,9 @@
+.search-results-page {
+  padding: 40px 0;
+  min-height: calc(100vh - 80px);
+}
+
+.search-results-page h1 {
+  font-size: 28px;
+  margin-bottom: 32px;
+}

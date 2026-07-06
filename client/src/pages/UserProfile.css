@@ -1,0 +1,28 @@
+.profile-page {
+  padding: 40px 0;
+  min-height: calc(100vh - 80px);
+}
+
+.profile-form {
+  max-width: 600px;
+  margin: 32px 0;
+}
+
+.profile-form .form-group {
+  margin-bottom: 24px;
+}
+
+.profile-form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.message {
+  padding: 12px;
+  background: #e8f5e9;
+  color: #2e7d32;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}

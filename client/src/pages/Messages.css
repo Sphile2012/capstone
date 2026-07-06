@@ -1,0 +1,25 @@
+.messages-page {
+  padding: 40px 0;
+  min-height: calc(100vh - 80px);
+}
+
+.messages-page h1 {
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+.conversations-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.conversation-item {
+  padding: 24px;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+
+.conversation-item:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
